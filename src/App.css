@@ -1,22 +1,51 @@
+body {
+  background: url(./bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App > img {
+  margin-top: 100px;
+  border: 5px solid rgb(5, 5, 85);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form {
+  margin: -5px auto 0 auto;
+  padding: 60px 0 100px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 4em;
+  color: rgb(247, 244, 237);
+  background-color: rgb(5, 5, 85);
+  width: 509px;
 }
 
-.App-link {
-  color: #09d3ac;
+input {
+  border: 0;
+  height: 2em;
+  width: 400px;
+  -webkit-appearance: none;
+  outline: none;
+  padding: 0 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: .5em;
+  text-align: center;
+}
+
+button {
+  color: rgb(247, 244, 237);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(5, 5, 85);
+  border: 2px solid rgb(247, 244, 237);
+  height: 70px;
+  width: 440px;
+  cursor: pointer;
+  font-size: .5em;
 }
